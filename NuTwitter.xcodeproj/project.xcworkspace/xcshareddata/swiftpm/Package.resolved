@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BottomBar-SwiftUI",
+        "repositoryURL": "https://github.com/smartvipere75/bottombar-swiftui",
+        "state": {
+          "branch": "master",
+          "revision": "933f0c8a05044c60ddc2b7160a1e9af073486603",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

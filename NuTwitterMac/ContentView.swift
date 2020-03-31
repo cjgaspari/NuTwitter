@@ -1,17 +1,22 @@
 //
 //  ContentView.swift
-//  NuTwitterMac
+//  NuTwitter
 //
-//  Created by CJ Gaspari on 3/31/20.
+//  Created by CJ Gaspari on 3/23/20.
 //  Copyright © 2020 CJ Gaspari. All rights reserved.
 //
 
 import SwiftUI
 
+var userColor: Color = .purple
+
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack {
+            TweetGroup()
+
+        }
     }
 }
 

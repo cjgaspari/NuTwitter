@@ -22,9 +22,7 @@
 		84F824EE24333D35006FCBE9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E724333D35006FCBE9 /* ProfileView.swift */; };
 		84F824EF24333D35006FCBE9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E724333D35006FCBE9 /* ProfileView.swift */; };
 		84F824F024333D35006FCBE9 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E824333D35006FCBE9 /* NewTweetView.swift */; };
-		84F824F124333D35006FCBE9 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E824333D35006FCBE9 /* NewTweetView.swift */; };
 		84F824F224333D35006FCBE9 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E924333D35006FCBE9 /* TweetView.swift */; };
-		84F824F324333D35006FCBE9 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E924333D35006FCBE9 /* TweetView.swift */; };
 		84F824F424333D35006FCBE9 /* TweetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EA24333D35006FCBE9 /* TweetGroup.swift */; };
 		84F824F524333D35006FCBE9 /* TweetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EA24333D35006FCBE9 /* TweetGroup.swift */; };
 		84F824F624333D35006FCBE9 /* UsernameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EB24333D35006FCBE9 /* UsernameButton.swift */; };
@@ -34,6 +32,7 @@
 		84F824FA24333D35006FCBE9 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824ED24333D35006FCBE9 /* ActionButton.swift */; };
 		84F824FB24333D35006FCBE9 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824ED24333D35006FCBE9 /* ActionButton.swift */; };
 		84F824FE24333DB3006FCBE9 /* BottomBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84F824FD24333DB3006FCBE9 /* BottomBar-SwiftUI */; };
+		84F824FF24333F29006FCBE9 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E924333D35006FCBE9 /* TweetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -296,12 +295,11 @@
 				84F824EF24333D35006FCBE9 /* ProfileView.swift in Sources */,
 				84F824F924333D35006FCBE9 /* LikeButton.swift in Sources */,
 				84F824D524333C90006FCBE9 /* ContentView.swift in Sources */,
-				84F824F124333D35006FCBE9 /* NewTweetView.swift in Sources */,
 				84F824F724333D35006FCBE9 /* UsernameButton.swift in Sources */,
 				84F824E624333D1D006FCBE9 /* TitlebarAccessory.swift in Sources */,
-				84F824F324333D35006FCBE9 /* TweetView.swift in Sources */,
 				84F824F524333D35006FCBE9 /* TweetGroup.swift in Sources */,
 				84F824D324333C90006FCBE9 /* AppDelegate.swift in Sources */,
+				84F824FF24333F29006FCBE9 /* TweetView.swift in Sources */,
 				84F824FB24333D35006FCBE9 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
