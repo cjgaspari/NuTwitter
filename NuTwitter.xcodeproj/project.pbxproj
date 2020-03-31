@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,22 @@
 		84F824D724333C91006FCBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F824D624333C91006FCBE9 /* Assets.xcassets */; };
 		84F824DA24333C91006FCBE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F824D924333C91006FCBE9 /* Preview Assets.xcassets */; };
 		84F824DD24333C91006FCBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F824DB24333C91006FCBE9 /* Main.storyboard */; };
+		84F824E624333D1D006FCBE9 /* TitlebarAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E524333D1D006FCBE9 /* TitlebarAccessory.swift */; };
+		84F824EE24333D35006FCBE9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E724333D35006FCBE9 /* ProfileView.swift */; };
+		84F824EF24333D35006FCBE9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E724333D35006FCBE9 /* ProfileView.swift */; };
+		84F824F024333D35006FCBE9 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E824333D35006FCBE9 /* NewTweetView.swift */; };
+		84F824F124333D35006FCBE9 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E824333D35006FCBE9 /* NewTweetView.swift */; };
+		84F824F224333D35006FCBE9 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E924333D35006FCBE9 /* TweetView.swift */; };
+		84F824F324333D35006FCBE9 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824E924333D35006FCBE9 /* TweetView.swift */; };
+		84F824F424333D35006FCBE9 /* TweetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EA24333D35006FCBE9 /* TweetGroup.swift */; };
+		84F824F524333D35006FCBE9 /* TweetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EA24333D35006FCBE9 /* TweetGroup.swift */; };
+		84F824F624333D35006FCBE9 /* UsernameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EB24333D35006FCBE9 /* UsernameButton.swift */; };
+		84F824F724333D35006FCBE9 /* UsernameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EB24333D35006FCBE9 /* UsernameButton.swift */; };
+		84F824F824333D35006FCBE9 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EC24333D35006FCBE9 /* LikeButton.swift */; };
+		84F824F924333D35006FCBE9 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824EC24333D35006FCBE9 /* LikeButton.swift */; };
+		84F824FA24333D35006FCBE9 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824ED24333D35006FCBE9 /* ActionButton.swift */; };
+		84F824FB24333D35006FCBE9 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824ED24333D35006FCBE9 /* ActionButton.swift */; };
+		84F824FE24333DB3006FCBE9 /* BottomBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84F824FD24333DB3006FCBE9 /* BottomBar-SwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +53,14 @@
 		84F824DC24333C91006FCBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F824DE24333C91006FCBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F824DF24333C91006FCBE9 /* NuTwitterMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NuTwitterMac.entitlements; sourceTree = "<group>"; };
+		84F824E524333D1D006FCBE9 /* TitlebarAccessory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlebarAccessory.swift; sourceTree = "<group>"; };
+		84F824E724333D35006FCBE9 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		84F824E824333D35006FCBE9 /* NewTweetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		84F824E924333D35006FCBE9 /* TweetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
+		84F824EA24333D35006FCBE9 /* TweetGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetGroup.swift; sourceTree = "<group>"; };
+		84F824EB24333D35006FCBE9 /* UsernameButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameButton.swift; sourceTree = "<group>"; };
+		84F824EC24333D35006FCBE9 /* LikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		84F824ED24333D35006FCBE9 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F824FE24333DB3006FCBE9 /* BottomBar-SwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +85,7 @@
 		84F824AC24333BF9006FCBE9 = {
 			isa = PBXGroup;
 			children = (
+				84F824E324333CE1006FCBE9 /* Views */,
 				84F824B724333BF9006FCBE9 /* NuTwitter */,
 				84F824D124333C90006FCBE9 /* NuTwitterMac */,
 				84F824B624333BF9006FCBE9 /* Products */,
@@ -119,6 +145,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		84F824E324333CE1006FCBE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84F824ED24333D35006FCBE9 /* ActionButton.swift */,
+				84F824EC24333D35006FCBE9 /* LikeButton.swift */,
+				84F824E824333D35006FCBE9 /* NewTweetView.swift */,
+				84F824E724333D35006FCBE9 /* ProfileView.swift */,
+				84F824EA24333D35006FCBE9 /* TweetGroup.swift */,
+				84F824E924333D35006FCBE9 /* TweetView.swift */,
+				84F824EB24333D35006FCBE9 /* UsernameButton.swift */,
+				84F824E424333CE9006FCBE9 /* macOS */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84F824E424333CE9006FCBE9 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				84F824E524333D1D006FCBE9 /* TitlebarAccessory.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +184,9 @@
 			dependencies = (
 			);
 			name = NuTwitter;
+			packageProductDependencies = (
+				84F824FD24333DB3006FCBE9 /* BottomBar-SwiftUI */,
+			);
 			productName = NuTwitter;
 			productReference = 84F824B524333BF9006FCBE9 /* NuTwitter.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 84F824AC24333BF9006FCBE9;
+			packageReferences = (
+				84F824FC24333DB3006FCBE9 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */,
+			);
 			productRefGroup = 84F824B624333BF9006FCBE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -221,9 +276,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F824EE24333D35006FCBE9 /* ProfileView.swift in Sources */,
+				84F824F824333D35006FCBE9 /* LikeButton.swift in Sources */,
 				84F824B924333BFA006FCBE9 /* AppDelegate.swift in Sources */,
+				84F824F024333D35006FCBE9 /* NewTweetView.swift in Sources */,
+				84F824F624333D35006FCBE9 /* UsernameButton.swift in Sources */,
 				84F824BB24333BFA006FCBE9 /* SceneDelegate.swift in Sources */,
+				84F824F224333D35006FCBE9 /* TweetView.swift in Sources */,
+				84F824F424333D35006FCBE9 /* TweetGroup.swift in Sources */,
 				84F824BD24333BFA006FCBE9 /* ContentView.swift in Sources */,
+				84F824FA24333D35006FCBE9 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,8 +293,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F824EF24333D35006FCBE9 /* ProfileView.swift in Sources */,
+				84F824F924333D35006FCBE9 /* LikeButton.swift in Sources */,
 				84F824D524333C90006FCBE9 /* ContentView.swift in Sources */,
+				84F824F124333D35006FCBE9 /* NewTweetView.swift in Sources */,
+				84F824F724333D35006FCBE9 /* UsernameButton.swift in Sources */,
+				84F824E624333D1D006FCBE9 /* TitlebarAccessory.swift in Sources */,
+				84F824F324333D35006FCBE9 /* TweetView.swift in Sources */,
+				84F824F524333D35006FCBE9 /* TweetGroup.swift in Sources */,
 				84F824D324333C90006FCBE9 /* AppDelegate.swift in Sources */,
+				84F824FB24333D35006FCBE9 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84F824FC24333DB3006FCBE9 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/smartvipere75/bottombar-swiftui";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84F824FD24333DB3006FCBE9 /* BottomBar-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F824FC24333DB3006FCBE9 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */;
+			productName = "BottomBar-SwiftUI";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84F824AD24333BF9006FCBE9 /* Project object */;
 }
