@@ -13,6 +13,11 @@
 		84F824BF24333BFC006FCBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F824BE24333BFC006FCBE9 /* Assets.xcassets */; };
 		84F824C224333BFC006FCBE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F824C124333BFC006FCBE9 /* Preview Assets.xcassets */; };
 		84F824C524333BFC006FCBE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F824C324333BFC006FCBE9 /* LaunchScreen.storyboard */; };
+		84F824D324333C90006FCBE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824D224333C90006FCBE9 /* AppDelegate.swift */; };
+		84F824D524333C90006FCBE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F824D424333C90006FCBE9 /* ContentView.swift */; };
+		84F824D724333C91006FCBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F824D624333C91006FCBE9 /* Assets.xcassets */; };
+		84F824DA24333C91006FCBE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F824D924333C91006FCBE9 /* Preview Assets.xcassets */; };
+		84F824DD24333C91006FCBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F824DB24333C91006FCBE9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +29,25 @@
 		84F824C124333BFC006FCBE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84F824C424333BFC006FCBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F824C624333BFC006FCBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F824D024333C90006FCBE9 /* NuTwitterMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuTwitterMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F824D224333C90006FCBE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F824D424333C90006FCBE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84F824D624333C91006FCBE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F824D924333C91006FCBE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84F824DC24333C91006FCBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F824DE24333C91006FCBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F824DF24333C91006FCBE9 /* NuTwitterMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NuTwitterMac.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		84F824B224333BF9006FCBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F824CD24333C90006FCBE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				84F824B724333BF9006FCBE9 /* NuTwitter */,
+				84F824D124333C90006FCBE9 /* NuTwitterMac */,
 				84F824B624333BF9006FCBE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				84F824B524333BF9006FCBE9 /* NuTwitter.app */,
+				84F824D024333C90006FCBE9 /* NuTwitterMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +97,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		84F824D124333C90006FCBE9 /* NuTwitterMac */ = {
+			isa = PBXGroup;
+			children = (
+				84F824D224333C90006FCBE9 /* AppDelegate.swift */,
+				84F824D424333C90006FCBE9 /* ContentView.swift */,
+				84F824D624333C91006FCBE9 /* Assets.xcassets */,
+				84F824DB24333C91006FCBE9 /* Main.storyboard */,
+				84F824DE24333C91006FCBE9 /* Info.plist */,
+				84F824DF24333C91006FCBE9 /* NuTwitterMac.entitlements */,
+				84F824D824333C91006FCBE9 /* Preview Content */,
+			);
+			path = NuTwitterMac;
+			sourceTree = "<group>";
+		};
+		84F824D824333C91006FCBE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84F824D924333C91006FCBE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,6 +139,23 @@
 			productReference = 84F824B524333BF9006FCBE9 /* NuTwitter.app */;
 			productType = "com.apple.product-type.application";
 		};
+		84F824CF24333C90006FCBE9 /* NuTwitterMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F824E024333C91006FCBE9 /* Build configuration list for PBXNativeTarget "NuTwitterMac" */;
+			buildPhases = (
+				84F824CC24333C90006FCBE9 /* Sources */,
+				84F824CD24333C90006FCBE9 /* Frameworks */,
+				84F824CE24333C90006FCBE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NuTwitterMac;
+			productName = NuTwitterMac;
+			productReference = 84F824D024333C90006FCBE9 /* NuTwitterMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,6 +167,9 @@
 				ORGANIZATIONNAME = "CJ Gaspari";
 				TargetAttributes = {
 					84F824B424333BF9006FCBE9 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					84F824CF24333C90006FCBE9 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -124,6 +188,7 @@
 			projectRoot = "";
 			targets = (
 				84F824B424333BF9006FCBE9 /* NuTwitter */,
+				84F824CF24333C90006FCBE9 /* NuTwitterMac */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +201,16 @@
 				84F824C524333BFC006FCBE9 /* LaunchScreen.storyboard in Resources */,
 				84F824C224333BFC006FCBE9 /* Preview Assets.xcassets in Resources */,
 				84F824BF24333BFC006FCBE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F824CE24333C90006FCBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F824DD24333C91006FCBE9 /* Main.storyboard in Resources */,
+				84F824DA24333C91006FCBE9 /* Preview Assets.xcassets in Resources */,
+				84F824D724333C91006FCBE9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +227,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84F824CC24333C90006FCBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F824D524333C90006FCBE9 /* ContentView.swift in Sources */,
+				84F824D324333C90006FCBE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -161,6 +245,14 @@
 				84F824C424333BFC006FCBE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84F824DB24333C91006FCBE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F824DC24333C91006FCBE9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +412,54 @@
 			};
 			name = Release;
 		};
+		84F824E124333C91006FCBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NuTwitterMac/NuTwitterMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NuTwitterMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZV7828735;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NuTwitterMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjgaspari.NuTwitterMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84F824E224333C91006FCBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NuTwitterMac/NuTwitterMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NuTwitterMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZV7828735;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NuTwitterMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjgaspari.NuTwitterMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +477,15 @@
 			buildConfigurations = (
 				84F824CA24333BFC006FCBE9 /* Debug */,
 				84F824CB24333BFC006FCBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F824E024333C91006FCBE9 /* Build configuration list for PBXNativeTarget "NuTwitterMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F824E124333C91006FCBE9 /* Debug */,
+				84F824E224333C91006FCBE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
